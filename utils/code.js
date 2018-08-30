@@ -30,5 +30,11 @@ module.exports = {
     1007:{
         code:1007,
         msg:'网络忙'
+    },
+    1008(option){
+        let obj = {code,msg}
+        obj.code = option.code;
+        obj.msg = option.msg;
+        return obj
     }
 }
